@@ -1,0 +1,40 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #111;
+}
+
+.elem{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.elem h1{
+    color: #fff;
+    font-size: 10vh;
+    z-index: 9;
+    mix-blend-mode: difference;
+    cursor: pointer;
+
+}
+
+.elem img{
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;    
+}
